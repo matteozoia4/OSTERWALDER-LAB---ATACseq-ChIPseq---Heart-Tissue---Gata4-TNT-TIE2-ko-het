@@ -12,7 +12,7 @@ color 102,204,102
   
 track GSE156001_William_T_Pu_2021_GSM4718809_GSM4718811_E12.5_G4_T2_rep1_3_ChIPseq_OVERLAYED_PROFILES
     container multiWig
-    shortLabel Gata4 ChIPseq Heart rep1,3 PROFILES OVERLAY
+    shortLabel Gata4 TIE2 ChIPseq Heart rep1,3 PROFILES OVERLAY
     longLabel Gata4_ChIPseq_Heart_E12.5_Pu_2021_GSE156001
     type bigWig 0 30000
     configurable on
