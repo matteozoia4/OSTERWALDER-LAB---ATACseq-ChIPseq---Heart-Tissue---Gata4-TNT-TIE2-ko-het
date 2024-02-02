@@ -1,0 +1,5 @@
+hub OSTERWALDER LAB - TFs ChIPseq - Heart Tissue - Gata4 : G4ko/G4het/T2/TNT
+shortLabel TFs ChIPseq - Heart Tissue
+longLabel William.T.Pu 2021 GSE156001
+genomesFile genomes.txt 
+email  matteo.zoia@dbmr.unibe.ch

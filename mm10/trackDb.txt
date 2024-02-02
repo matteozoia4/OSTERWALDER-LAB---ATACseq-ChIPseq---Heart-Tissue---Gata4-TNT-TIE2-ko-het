@@ -1,0 +1,225 @@
+
+
+track GSE156001_William_T_Pu_2021_GSM4718809_GSM4718811_E12.5_G4_T2_rep1_3_ChIPseq_peaks_macs2_intersect_PEAKS
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721350ec3c87aa68a5565/display?to_ext=bigbed
+itemRgb on
+shortLabel Gata4 TIE2 ChIPseq Heart rep1,3 PEAKS
+longLabel Gata4_ChIPseq_Heart_E12.5_Pu_2021_GSE156001  
+type bigBed 3 .
+configurable on
+visibility dense
+color 102,204,102        
+  
+track GSE156001_William_T_Pu_2021_GSM4718809_GSM4718811_E12.5_G4_T2_rep1_3_ChIPseq_OVERLAYED_PROFILES
+    container multiWig
+    shortLabel Gata4 ChIPseq Heart rep1,3 PROFILES OVERLAY
+    longLabel Gata4_ChIPseq_Heart_E12.5_Pu_2021_GSE156001
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0:5
+    viewLimitsMax 0:124.127
+    maxHeightPixels 128:30:11
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    
+        track Gata4_TIE2_ChIPseq_Heart_E12.5_Pu_2021_GSM4718809_PROFILE
+        parent GSE156001_William_T_Pu_2021_GSM4718809_GSM4718811_E12.5_G4_T2_rep1_3_ChIPseq_OVERLAYED_PROFILES
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721350f4404c5a259d3bd/display?to_ext=bigwig
+        shortLabel Gata4 TIE2 ChIPseq rep1
+        longLabel Gata4_ChIPseq_Heart_E12.5_Pu_2021_GSE156001  
+        type bigWig
+        color 102,204,102
+
+        track Gata4_ChIPseq_Heart_E12.5_Pu_2021_GSM4718811_PROFILE
+        parent GSE156001_William_T_Pu_2021_GSM4718809_GSM4718811_E12.5_G4_T2_rep1_3_ChIPseq_OVERLAYED_PROFILES
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721358a64e18068a2707a/display?to_ext=bigwig
+        shortLabel Gata4 TIE2 ChIPseq rep3
+        longLabel Gata4_ChIPseq_Heart_E12.5_Pu_2021_GSE156001  
+        type bigWig
+        color 102,204,102
+
+
+
+
+
+
+
+track GSE156001_William_T_Pu_2021_GSM4718812_GSM4718814_E12.5_G4_TNT_rep1_3_ChIPseq_peaks_macs2_intersect_PEAKS
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135c17a247750e5dd6b/display?to_ext=bigbed
+itemRgb on
+shortLabel Gata4 TNT ChIPseq Heart rep1,3 PEAKS
+longLabel Gata4_ChIPseq_Heart_E12.5_Pu_2021_GSE156001 
+type bigBed 3 .
+configurable on
+visibility dense
+color 102,204,102        
+  
+track GSE156001_William_T_Pu_2021_GSM4718812_GSM4718814_E12.5_G4_TNT_rep1_3_ChIPseq_OVERLAYED_PROFILES
+    container multiWig
+    shortLabel Gata4 TNT ChIPseq Heart rep1,3 PROFILES OVERLAY
+    longLabel Gata4_ChIPseq_Heart_E12.5_Pu_2021_GSE156001 
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0:5
+    viewLimitsMax 0:124.127
+    maxHeightPixels 128:30:11
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    
+        track Gata4_TNT_ChIPseq_Heart_E12.5_Pu_2021_GSM4718812_PROFILE
+        parent GSE156001_William_T_Pu_2021_GSM4718812_GSM4718814_E12.5_G4_TNT_rep1_3_ChIPseq_OVERLAYED_PROFILES
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135d27401e8c2e12d25/display?to_ext=bigwig
+        shortLabel Gata4 TNT ChIPseq rep1
+        longLabel Gata4_ChIPseq_Heart_E12.5_Pu_2021_GSE156001 
+        type bigWig
+        color 102,204,102
+
+        track Gata4_TNT_ChIPseq_Heart_E12.5_Pu_2021_GSM4718814_PROFILE
+        parent GSE156001_William_T_Pu_2021_GSM4718812_GSM4718814_E12.5_G4_TNT_rep1_3_ChIPseq_OVERLAYED_PROFILES
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135ad8d13c88270492b/display?to_ext=bigwig
+        shortLabel Gata4 TNT ChIPseq rep3
+        longLabel Gata4_ChIPseq_Heart_E12.5_Pu_2021_GSE156001  
+        type bigWig
+        color 102,204,102
+
+
+
+
+
+
+
+
+
+
+track GSE156001_Pu_2021_GSM4718824_GSM4718825_GSM4718826_E12.5_G4het_ATAC_rep2_3_4_peaks_macs2_intersect_INTERSECTED_PEAKS
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721358a7d3992c529fe1d/display?to_ext=bigbed
+itemRgb on
+shortLabel Gata4-het ATACseq Heart rep2,3,4 PEAKS
+longLabel Gata4_ChIPseq_Heart_E12.5_Pu_2021_GSE156001
+type bigBed 3 .
+configurable on
+visibility dense
+color 255,25,102 
+
+track GSE156001_Pu_2021_GSM4718824_GSM4718825_GSM4718826_E12.5_G4het_ATAC_rep2_3_4_PROFILES_OVERLAY
+    container multiWig
+    shortLabel Gata4-het ATACseq Heart rep2,3,4 PROFILES OVERLAY
+    longLabel Gata4_ChIPseq_Heart_E12.5_Pu_2021_GSE156001
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0:20
+    viewLimitsMax 0:20
+    maxHeightPixels 100:30:18
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+
+        track Gata4_het_ATACseq_Heart_Rep1_PROFILE 
+        parent GSE156001_Pu_2021_GSM4718824_GSM4718825_GSM4718826_E12.5_G4het_ATAC_rep2_3_4_PROFILES_OVERLAY
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721351ba403632ac74f5a/display?to_ext=bigwig
+        shortLabel Gata4-het ATACseq Heart rep2 PROFILE
+        longLabel Gata4_ChIPseq_Heart_E12.5_Pu_2021_GSE156001
+        type bigWig
+        color 255,25,102
+          
+        track Gata4_het_ATACseq_Heart_Rep3_PROFILE 
+        parent GSE156001_Pu_2021_GSM4718824_GSM4718825_GSM4718826_E12.5_G4het_ATAC_rep2_3_4_PROFILES_OVERLAY
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721355ec73c52601fb011/display?to_ext=bigwig
+        shortLabel Gata4-het ATACseq Heart rep3 PROFILE
+        longLabel Gata4_ChIPseq_Heart_E12.5_Pu_2021_GSE156001
+        type bigWig
+        color 255,25,102
+
+        track Gata4_het_ATACseq_Heart_Rep4_PROFILE 
+        parent GSE156001_Pu_2021_GSM4718824_GSM4718825_GSM4718826_E12.5_G4het_ATAC_rep2_3_4_PROFILES_OVERLAY
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135065722340105a3fa/display?to_ext=bigwig
+        shortLabel Gata4-het ATACseq Heart rep4 PROFILE
+        longLabel Gata4_ChIPseq_Heart_E12.5_Pu_2021_GSE156001
+        type bigWig
+        color 255,25,102
+
+
+
+
+
+
+
+
+
+track GSE156001_Pu_2021_GSM4718827_GSM4718828_GSM4718829_E12.5_G4ko_ATAC_rep2_3_4_peaks_macs2_INTERSECTED_PEAKS
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135618a7e057030f1e8/display?to_ext=bigbed
+itemRgb on
+shortLabel Gata4-ko ATACseq Heart rep2,3,4 PEAKS
+longLabel Gata4_ChIPseq_Heart_E12.5_Pu_2021_GSE156001
+type bigBed 3 .
+configurable on
+visibility dense
+color 255,25,102 
+
+track GSE156001_Pu_2021_GSM4718827_GSM4718828_GSM4718829_E12.5_G4ko_ATAC_rep2_3_4_PROFILES_OVERLAY
+    container multiWig
+    shortLabel Gata4-ko ATACseq Heart rep2,3,4 PROFILES OVERLAY
+    longLabel Gata4_ChIPseq_Heart_E12.5_Pu_2021_GSE156001
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0:20
+    viewLimitsMax 0:20
+    maxHeightPixels 100:30:18
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+
+        track Gata4_ko_ATACseq_Heart_Rep1_PROFILE 
+        parent GSE156001_Pu_2021_GSM4718827_GSM4718828_GSM4718829_E12.5_G4ko_ATAC_rep2_3_4_PROFILES_OVERLAY
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721357b673d373583dcfe/display?to_ext=bigwig
+        shortLabel Gata4-het ATACseq Heart rep2 PROFILE
+        longLabel Gata4_ChIPseq_Heart_E12.5_Pu_2021_GSE156001
+        type bigWig
+        color 255,25,102
+          
+        track Gata4_ko_ATACseq_Heart_Rep3_PROFILE 
+        parent GSE156001_Pu_2021_GSM4718827_GSM4718828_GSM4718829_E12.5_G4ko_ATAC_rep2_3_4_PROFILES_OVERLAY
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135f5967169b619100b/display?to_ext=bigwig
+        shortLabel Gata4-het ATACseq Heart rep3 PROFILE
+        longLabel Gata4_ChIPseq_Heart_E12.5_Pu_2021_GSE156001
+        type bigWig
+        color 255,25,102
+
+        track Gata4_ko_ATACseq_Heart_Rep4_PROFILE 
+        parent GSE156001_Pu_2021_GSM4718827_GSM4718828_GSM4718829_E12.5_G4ko_ATAC_rep2_3_4_PROFILES_OVERLAY
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135caa1b219a8a1b259/display?to_ext=bigwig
+        shortLabel Gata4-het ATACseq Heart rep4 PROFILE
+        longLabel Gata4_ChIPseq_Heart_E12.5_Pu_2021_GSE156001
+        type bigWig
+        color 255,25,102
+
+
+
+
+
